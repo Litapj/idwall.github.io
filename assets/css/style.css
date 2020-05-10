@@ -1,0 +1,126 @@
+body{
+    font-family:'Montserrat', sans-serif; ;
+}
+h1{
+    color:#5500ff;
+    font-size: 30px;
+    font-weight: 700;
+}
+h3{
+    color: #5500ff;
+    font-size: 20px;
+    font-weight: 700;
+}
+.topo{
+    background: linear-gradient(to right, #5500ff, #cd61ff)
+}
+.img-topo {
+  width: 100%;
+  height: auto;
+}
+.titulo-topo{
+    text-align: center;
+    margin-top: 30px;
+    animation: fadeInUp;
+    animation-delay: 1s;
+}
+.number{
+    height: 350px;
+    align-items: center;
+    margin: 30px auto;
+    animation: fadeInUp;
+    animation-delay: 1s;
+}
+.number-2{
+    animation-delay: 3s;
+}
+.number-3{
+    animation-delay: 5s;
+}
+.parallax {
+    overflow-x: hidden;
+    perspective: 2px;   
+
+}
+.img-parallax{
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.img-parallax-1{
+    background-image: url(../../images/imagem1-a.png);
+    background-color: #5500ff;
+}
+.img-parallax-2{
+    background-image: url(../../images/imagem2-a.png);
+    background-color: #ff00a2;
+}
+.img-parallax-3{
+    background-image: url(../../images/imagem3-a.png);
+    background-color: #11eab5;
+}
+  .titulo-parallax{
+    display:flex;
+    color:white;
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 6%;
+  }
+.jumbo-1{
+    background-color: white;
+    border: solid 2px #5500ff;
+    margin-top: 30px;
+    padding: 40px;
+    color: #5500ff;
+    font-weight: 700
+    ;
+}
+.jumbo-2{
+    background-color: white;
+    border: solid 2px #ff00a2;
+    margin-top: 30px;
+    padding: 40px;
+    color: #ff00a2;
+    font-weight: 700
+}
+.jumbo-3{
+    background-color: white;
+    border: solid 2px #11eab5;
+    margin-top: 30px;
+    padding: 40px;
+    color: #11eab5;
+    font-weight: 700
+}
+.footer-1{
+    background-color: #f5f5f5;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    margin-top: 30px;
+}
+.cta{
+    margin-top: 50px;
+    background-color: #5500ff;
+    color: white;
+    font-weight: 700;
+}
+.cta:hover{
+    background-color: #3b00b2;
+    color: white;
+    font-weight: 700;
+    
+}
+.footer-2{
+    background-color: #5500ff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.logo-footer{
+    width: 100px;
+}
